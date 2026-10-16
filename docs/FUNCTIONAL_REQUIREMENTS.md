@@ -1,0 +1,3 @@
+# Functional requirements
+
+Create/open/rename/duplicate/delete persistent projects; managed image/PDF imports and source PDF page selection; responsive editor; reversible artwork transformations; grid and physical-size layout; paper presets and custom dimensions; orientation; independent margins and overlap; selectable cutting edges; solid/dashed/dotted/dash-dot/corner lines; scissors; numbering style/placement/order; resolution selection; poster and individual sheet previews; PDF, image ZIP and print-oriented DOCX exports; progress/cancellation; native printing; persistent settings and presets. Real conversions only: report missing converters. Source files are read-only. No sample projects presented as user data.

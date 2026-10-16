@@ -1,0 +1,5 @@
+# Architecture
+
+Feature-first organization: projects, slicing, document_import, editor, export, settings, home. Pure slicing domain has no Flutter dependencies. Immutable project snapshots are serialized as versioned JSON stored in SQLite through Drift. Riverpod injects repositories and application controllers. Source copies are managed inside application support storage; originals are never modified. Editor-only viewport transforms are separate from persisted artwork transforms. A shared renderer consumes SlicingPlan for sheet previews and export. Export works sequentially, stages temporary output and checks cancellation between pages.
+
+Text layers are serialized optional PrintConfig records with physical positions, wrapping widths and point-sized Inter typography. ArtworkGeometry supplies shared rendering/interaction bounds and deterministic snapping. InteractivePoster stages pointer changes locally and commits one undo snapshot per gesture; multiple touch pointers yield to viewport zoom. DesktopFrame wraps all routed pages and delegates close through the native window manager, retaining the editor save guard.

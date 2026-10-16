@@ -1,0 +1,5 @@
+# Design system
+
+Material 3, primary #4F46E5, accent #06B6D4, background #F8FAFC, surface #FFFFFF, text #0F172A, secondary #64748B, border #E2E8F0. Matching dark scheme. Four-pixel spacing scale (4/8/12/16/20/24/32/40/48/64), centralized radius and theme tokens. Inter is bundled for offline use. App-authored icons use static Solar Bold Duotone widgets, retaining two-layer opacity, with tooltips for icon actions. Attribution: Solar Icon Set by 480 Design, CC BY 4.0 (https://www.figma.com/community/file/1166831539721848736). SVG package wrapper: flutter_solar_icons. Desktop workspace uses toolbar, canvas and inspector; compact screens use an inspector bottom sheet and touch controls. Inputs validate before committing changes.
+
+Version 1.1 adds a 44-pixel custom desktop title bar and a stable contextual object row. Logo asset: assets/ZSlice Logo.png. Short windows use compact inspector controls; phone settings remain reachable beside the scrolling tool row. Selection and snap guides are editor-only and never exported.
